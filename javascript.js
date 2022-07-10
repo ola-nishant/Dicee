@@ -1,9 +1,9 @@
 var random=Math.floor(Math.random()*6)+1;
-var source="images/"+random+".png";
+var source=random+".png";
 document.querySelector(".img1").setAttribute("src",source);
 
 var random2=Math.floor(Math.random()*6)+1;
-var source2="images/"+random2+".png";
+var source2=random2+".png";
 document.querySelector(".img2").setAttribute("src",source2);
 
 if(random==random2){
